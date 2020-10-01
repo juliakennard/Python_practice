@@ -98,11 +98,11 @@ print(y)
 # Ultimate Analysis
 
 def ultimate_analysis(some_list):
-    sum_total = 0
+    sum_total = some_list[0]
     minimum = some_list[0]
     maximum = some_list[0]
 
-    for i in range(0, len(some_list)):
+    for i in range(1, len(some_list)):
         sum_total = sum_total + some_list[i]
     
     for i in range(0, len(some_list)):
