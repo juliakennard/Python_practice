@@ -1,0 +1,13 @@
+Practice Pip and Virtual Environments:
+
+- The difference between pip list when the environment is active or inactive is that when I run pip list with the environment activated, I only had 3 items listed, whereas with the environment deactivated I had many more. 
+
+- Because I had already installed Django in my environment, when I tried to reinstall Django, I got a message saying that the requirement has already been satisfied. 
+
+- Freeze and list are different in that freeze does not list pip as one of the items in the environment.
+
+- By running the command pip freeze > requirements.txt, the file was created on my desktop
+
+- Inside the requirements.txt file, there is a long list of programs. 
+
+- I installed Django and searched Flask. 

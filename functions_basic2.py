@@ -30,8 +30,8 @@ def values_greater_than_second(some_list):
         return False
     new_list = []
     for i in range(0, len(some_list)):
-        if i > some_list[1]:
-            new_list.append(i)
+        if some_list[i] > some_list[1]:
+            new_list.append(some_list[i])
     print(len(new_list))
     return new_list
 
