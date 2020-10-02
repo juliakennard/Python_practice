@@ -9,5 +9,5 @@ def selection_sort(some_list):
                 some_list[i], some_list[j] = some_list[j], some_list[i]
     return some_list
 
-minimum = (selection_sort(my_array))
-print(minimum)
+print(selection_sort(my_array))
+
