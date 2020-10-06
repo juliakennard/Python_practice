@@ -44,9 +44,14 @@ students = [
     ]
 
 def iterateDictionary(some_dictionary):
+    student = "These are the students"
     for entry in range(0, len(some_dictionary)):
+        print(student)
+        student = ""
         for key in some_dictionary[entry]:
-            print(key + " - " + some_dictionary[entry][key])
+            student += key + " - " + some_dictionary[entry][key] + ", "
+
+            #print(key + " - " + some_dictionary[entry][key])
 
 iterateDictionary(students)
 
@@ -71,7 +76,10 @@ dojo = {
 def printInfo(some_dict):
     for key in some_dict:
         print(len(some_dict[key]), key.upper())
-        for entry in range(0, len(some_dict[key])):
-            print(some_dict[key][entry])
+        for entry in some_dict[key]:
+            print(entry)
+
+        #for entry in range(0, len(some_dict[key])):
+            #print(some_dict[key][entry])
 
 printInfo(dojo)
