@@ -42,9 +42,9 @@ class Product:
         return self
     
     def print_info(self):
-        print("Product Name: " + self.name)
-        print("Category: " + self.category)
-        print("Price: $" + str(self.price))
+        print(f"Product Name: {self.name}")
+        print(f"Category: {self.category}")
+        print(f"Price: ${self.price}")
         return self
 
 # Create 1 instance of Store and 3 of Product
